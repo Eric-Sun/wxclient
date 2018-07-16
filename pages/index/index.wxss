@@ -1,0 +1,11 @@
+.base_pic{
+  width: 100%;
+  height: 100vh;
+  vertical-align:bottom;
+}
+
+.divide{
+  height: 10px;
+  width: 100%;
+  background-color: #808080;
+}

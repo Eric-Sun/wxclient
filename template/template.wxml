@@ -1,0 +1,17 @@
+<template name="tabBar">
+  <view class="tabBar">
+    <block wx:for="{{tabBar}}" wx:for-item="item" wx:key="tabBar">
+      <view wx:if="{{item.isContact==0}}" class="tabBar-item">
+        <navigator open-type="redirect" url="{{item.pagePath}}">
+          <view>
+            <image class="icon" src='{{item.iconPath}}'></image>
+          </view>
+          <view class="{{item.current== 1 ? 'tabBartext' :''}}">{{item.text}}</view>
+        </navigator>
+      </view>
+      <view wx:else class="tabBar-item">
+        <button open-type='contact'>{{item.text}}</button>
+      </view>
+    </block>
+  </view>
+</template>

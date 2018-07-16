@@ -1,0 +1,8 @@
+<view>
+<view>请上传照片</view>
+<view>
+  <image src="{{image_src}}"></image>
+</view>
+<button catchtap='uploadImage'>选择照片</button>
+<button catchtap='submit'>提交订单</button>
+</view>

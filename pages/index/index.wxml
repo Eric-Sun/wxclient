@@ -1,0 +1,12 @@
+ <import src="../../template/template.wxml"/> 
+<view>
+  <view>
+    <image class="base_pic" src="{{img_src}}"></image>
+  </view>
+  <view class="divide" />
+  <view>
+    <image class="base_pic" src="{{img_src}}"></image>
+  </view>
+  <view class="divide" />
+</view>
+ <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> 
