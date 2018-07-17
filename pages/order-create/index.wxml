@@ -1,8 +1,12 @@
+<import src="../../template/template.wxml" />
 <view>
-<view>请上传照片</view>
-<view>
-  <image src="{{image_src}}"></image>
+  <view>请上传照片</view>
+  <view>
+    <image src="{{image_src}}"></image>
+  </view>
+  <button catchtap='uploadImage'>选择照片</button>
+  <view>请输入备注信息</view>
+  <input>{{remark}}</input>
+  <button catchtap='submit'>提交订单</button>
 </view>
-<button catchtap='uploadImage'>选择照片</button>
-<button catchtap='submit'>提交订单</button>
-</view>
+<template is="tabBar" data="{{tabBar:bindData.tabBar}}" />

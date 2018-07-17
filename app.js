@@ -35,6 +35,7 @@ App({
   },
   globalData: {
     userInfo: null,
-    serverUrl:"http://localhost:8081/"
+    serverUrl:"http://localhost:8081/",
+    userId:-1
   }
 })
