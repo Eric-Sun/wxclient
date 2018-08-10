@@ -6,6 +6,11 @@ Page({
     imgId: 0,
     remark: ""
   },
+  bindblur : function(e){
+    this.setData({
+      remark: e.detail.value
+    })
+  },
   onLoad: function() {
     console.log("bbb");
     template.tabbar("tabBar", 1, this) //0表示第一个tabbar
