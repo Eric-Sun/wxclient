@@ -21,9 +21,10 @@
       </view>
       <view class="price-box">
         <view class="total-price">合计：¥ {{item.finalPrice}}</view>
-        <view>fdsa</view>
+        <view>{{item.statusStr}}</view>
       </view>
     </view>
 
   </view>
 </view>
+ <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> 

@@ -63,7 +63,7 @@ Page({
     console.log(that.data.imgId);
     console.log(app.globalData.serverUrl);
     wx.request({
-      url: app.globalData.serverUrl + "api",
+      url: app.globalData.serverUrl + "/api",
       method: "POST",
       header: {
         "content-type": "application/x-www-form-urlencoded"
@@ -71,7 +71,7 @@ Page({
       data: {
         act: "order.add",
         imgId: that.data.imgId,
-        userId: app.globalData.userId,
+        userId: wx.getStorageSync('userInfo').userId ,
         itemId: 1,
         finalPrice: 700,
         remark: that.data.remark

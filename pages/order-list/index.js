@@ -1,4 +1,6 @@
 // var wxpay = require('../../utils/pay.js')
+var template = require('../../template/template.js');
+
 var app = getApp()
 Page({
   data: {},
@@ -10,7 +12,7 @@ Page({
   },
   onLoad: function(options) {
     // 生命周期函数--监听页面加载
-
+    template.tabbar("tabBar", 0, this)
   },
   onReady: function() {
     // 生命周期函数--监听页面初次渲染完成
@@ -24,7 +26,7 @@ Page({
     var postData = {
       token: app.globalData.token,
       act: "order.listByUserId",
-      userId: 3
+      userId: wx.getStorageSync('userInfo').userId
     };
     console.log(JSON.stringify(postData));
     wx.request({

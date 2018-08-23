@@ -6,9 +6,9 @@
   </view>
   <view style="height:20rpx;background: #eee;width:100%;"></view>
   
-  <view class="my-item">
+  <!-- <view class="my-item">
     <navigator url="/pages/order-list/index" hover-class="navigator-hover">我的订单</navigator>
-  </view>
+  </view> -->
   <view style="height:20rpx;background: #eee;width:100%;"></view>
   <view class="about" bindtap="aboutUs">
     关于我们
@@ -16,6 +16,7 @@
 
   <view style="height:20rpx;background: #eee;width:100%;"></view>
   <view class="my-item" style="border:none;padding:0rpx;margin:0rpx;background:none;border:none;height:auto;line-height:auto;">
-    <button type="warn" bindtap="relogin">重新登录</button>
+    <!-- <button type="warn" bindtap="relogin">重新登录</button> -->
   </view>
 </view>
+ <template is="tabBar" data="{{tabBar:bindData.tabBar}}"/> 
