@@ -21,6 +21,6 @@ App({
     }, 10)
   },
   globalData: {
-    serverUrl:"http://localhost:8081"
+    serverUrl:"https://api.cosydesign.cn/api"
   }
 })

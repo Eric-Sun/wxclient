@@ -4,23 +4,23 @@ function tabbarinit() {
     {
       "current": 0,
       "pagePath": "/pages/index/index",
-      "iconPath": "/imgs/home.png",
-      "selectedIconPath": "/imgs/home_on.png",
+      "iconPath": "",
+      "selectedIconPath": "",
       "text": "首页",
       "isContact": 0
     }, {
       "current": 0,
       "pagePath": "/pages/category/category",
-      "iconPath": "/imgs/category.png",
-      "selectedIconPath": "/imgs/category_on.png",
+      "iconPath": "",
+      "selectedIconPath": "",
       "text": "客服",
       "isContact": 1
     },
     {
       "current": 0,
       "pagePath": "/pages/my/index",
-      "iconPath": "/imgs/buy.png",
-      "selectedIconPath": "/imgs/buy_on.png",
+      "iconPath": "",
+      "selectedIconPath": "",
       "text": "我的",
       "isContact": 0
     }

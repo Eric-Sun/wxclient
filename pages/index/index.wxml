@@ -1,7 +1,7 @@
  <import src="../../template/template.wxml"/> 
 <view>
-  <view>
-    <image class="base_pic" src="{{img_src}}"></image>
+  <view >
+  <image class="img" src="{{img_src}}" ></image>
   </view>
 </view>
 <view class="bbbar">

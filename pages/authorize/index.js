@@ -22,7 +22,7 @@ Page({
             var encryptedData = res.encryptedData;
             // 下面开始调用注册接口
             wx.request({
-              url: app.globalData.serverUrl + "/api",
+              url: app.globalData.serverUrl,
               data: {
                 act: "user.wechatLogin",
                 code: code,
